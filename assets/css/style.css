@@ -1,0 +1,200 @@
+/* sets styling for all page elements */
+/* unchanged */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* this ccs style is applied to the "body" section element in the html file */
+/* it applies a maximum width to the page and centers it on the screen */
+/* this is useful for users viewing the page on a large/ultra widescreen display */
+.center-on-screen {
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* sets body background colour to #d9dcd6 */
+/* unchanged */
+body {
+    background-color: #d9dcd6;
+}
+
+/* styles the header section */
+/* previously a generic div element was used in the html file with class ".header" this style now applied to the "header" section element */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* styles the header > h1 element */
+/* previously a generic div element was used in the html file with class ".header" */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* changes the "seo" part of the h1 text to colour #d9dcd6 */
+/* unchanged */
+.seo {
+    color: #d9dcd6;
+}
+
+/* styles the nav section */
+/* previously a generic div element was used in the html file with class ".header" */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* removes the bullet point from the unordered list */
+/* previously a generic div element was used in the html file with class ".header" */
+nav ul {
+    list-style-type: none;
+}
+
+/* displays the nav unordered list items inline with 25px margin on the left for each item */
+/* previously a generic div element was used in the html file with class ".header" */
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* styles all <a> elements*/
+/* unchanged */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* defines the section below the header section to have a background image and set height */
+/* class name changed from .hero to .main-image to be more clear */
+.main-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* styles elements with the "content" class assigned */
+/* unchanged */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* img elements with this class assigned float on the left side of the parent element */
+/* unchanged */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* img elements with this class assigned float on the right side of the parent element */
+/* unchanged */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* styles all <p> elements */
+/* unchanged */
+p {
+    font-size: 16px;
+}
+
+/* styles the section > article elements */
+/* as above there were previously 3 unnecessary duplicate classes */
+/* now there is just one style being applied to all section > article elements */
+section article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* styles the section > article > img elements */
+/* as above there were previously 3 unnecessary duplicate classes */
+/* now there is just one style being applied to all section > article > img elements */
+section article img {
+    max-height: 200px;
+}
+
+/* styles the section > article > h2 elements */
+/* as above there were previously 3 unnecessary duplicate classes */
+/* now there is just one style being applied to all section > article > h2 elements */
+section article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* styles the aside elements */
+/* added margin-bottom: 20px so that the element doesn't sit touching the bottom of the page now that the footer is hidden */
+/* previously a generic div element was used in the html file with class ".benefits" this style now applied to the "aside" section element */
+aside {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* styles the aside > section elements */
+/* previously there were 3 unnecessary duplicate classes applying the same styling to the 3 "div" elements within the "div" with .benefits class assigned*/
+/* now there is just one style being applied to all aside > section elements */
+aside section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* styles the aside > section > h3 elements */
+/* as above there were previously 3 unnecessary duplicate classes */
+/* now there is just one style being applied to all aside > section > h3 elements */
+aside section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* styles the aside > section > img elements */
+/* as above there were previously 3 unnecessary duplicate classes */
+/* now there is just one style being applied to all aside > section > img elements */
+aside section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* styles the footer element */
+/* unchanged */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* styles the footer > h2 element */
+/* unchanged */
+footer h2 {
+    font-size: 20px;
+}
+
+/* hides any element with this class assigned to it. this is assigned to the footer in the html file */
+/* added */
+.hide-element {
+    display: none;
+}
