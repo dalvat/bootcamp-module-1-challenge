@@ -9,7 +9,7 @@
 /* this ccs style is applied to the "body" section element in the html file */
 /* it applies a maximum width to the page and centers it on the screen */
 /* this is useful for users viewing the page on a large/ultra widescreen display */
-.center-on-screen {
+.centerOnScreen {
     max-width: 1280px;
     margin: auto;
 }
@@ -74,7 +74,7 @@ a {
 
 /* defines the section below the header section to have a background image and set height */
 /* class name changed from .hero to .main-image to be more clear */
-.main-image {
+.mainImage {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -93,14 +93,14 @@ a {
 
 /* img elements with this class assigned float on the left side of the parent element */
 /* unchanged */
-.float-left {
+.floatLeft {
     float: left;
     margin-right: 25px;
 }
 
 /* img elements with this class assigned float on the right side of the parent element */
 /* unchanged */
-.float-right {
+.floatRight {
     float: right;
     margin-left: 25px;
 }
@@ -195,6 +195,6 @@ footer h2 {
 
 /* hides any element with this class assigned to it. this is assigned to the footer in the html file */
 /* added */
-.hide-element {
+.hideElement {
     display: none;
 }
